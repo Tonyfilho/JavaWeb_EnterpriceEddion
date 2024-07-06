@@ -78,4 +78,15 @@
     <servlet-name>CharEspecial01</servlet-name>
     <url-pattern>/CharEspecial01</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>IncludeHtmlFull</display-name>
+    <servlet-name>IncludeHtmlFull</servlet-name>
+    <servlet-class>com.tony.javaservlets.IncludeHtmlFull</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>IncludeHtmlFull</servlet-name>
+    <url-pattern>/IncludeHtmlFull</url-pattern>
+    <url-pattern>/includehtmlfull</url-pattern>
+  </servlet-mapping>
 </web-app>
