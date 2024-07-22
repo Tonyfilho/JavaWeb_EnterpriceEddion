@@ -89,4 +89,15 @@
     <url-pattern>/IncludeHtmlFull</url-pattern>
     <url-pattern>/includehtmlfull</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>TestCookieOnBrowser</display-name>
+    <servlet-name>TestCookieOnBrowser</servlet-name>
+    <servlet-class>com.tony.javaservlets.TestCookieOnBrowser</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TestCookieOnBrowser</servlet-name>
+    <url-pattern>/TestCookieOnBrowser</url-pattern>
+    <url-pattern>/testcookieonbrowser</url-pattern>
+  </servlet-mapping>
 </web-app>
