@@ -202,4 +202,15 @@
     <url-pattern>/LerParametrosDeWebXml</url-pattern>
     <url-pattern>/lerparametrosdewebxml</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LerParametrosAnotation</display-name>
+    <servlet-name>LerParametrosAnotation</servlet-name>
+    <servlet-class>com.tony.javaservlets.LerParametrosAnotation</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LerParametrosAnotation</servlet-name>
+    <url-pattern>/LerParametrosAnotation</url-pattern>
+    <url-pattern>/lerparametrosanotation</url-pattern>
+  </servlet-mapping>
 </web-app>
